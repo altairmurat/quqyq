@@ -203,7 +203,7 @@
       isRegistering: false
     };
 
-    const API_URL = 'https://quqyqbackend.onrender.com/';
+    const API_URL = 'http://0.0.0.0:10000';
 
     async function fetchWithAuth(url, options = {}) {
       const token = localStorage.getItem('token');
@@ -476,3 +476,4 @@ async function selectCourse(courseId) {
 </body>
 
 </html>
+
